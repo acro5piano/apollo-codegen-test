@@ -15,5 +15,5 @@ export interface UserFragment {
   id: number;
   name: string | null;
   isActive: boolean;
-  bankAccounts: (UserFragment_bankAccounts | null)[] | null;
+  bankAccounts: (UserFragment_bankAccounts | null)[];
 }

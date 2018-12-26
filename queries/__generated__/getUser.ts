@@ -15,7 +15,7 @@ export interface getUser_user {
   id: number;
   name: string | null;
   isActive: boolean;
-  bankAccounts: (getUser_user_bankAccounts | null)[] | null;
+  bankAccounts: (getUser_user_bankAccounts | null)[];
 }
 
 export interface getUser {
