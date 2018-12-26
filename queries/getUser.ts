@@ -3,6 +3,9 @@ export const UserFragment = gql`
     id
     name
     isActive
+    bankAccounts {
+      id
+    }
   }
 `
 

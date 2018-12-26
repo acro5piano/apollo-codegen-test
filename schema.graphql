@@ -1,15 +1,23 @@
-type Query {
-  user: User
-}
-
 type User {
-  id: Int!
-  name: String
-  isActive: Boolean!
+    id: Int!
+    name: String
+    isActive: Boolean!
+    bankAccounts: [BankAccount]
 }
 
-# fragment UserFragment on User {
-#   id
-#   name
-#   isActive
-# }
+type BankAccount {
+    id: Int!
+    branch: String
+}
+
+type Query {
+    user: User
+}
+
+type Mutation {
+    updateUser(input: UpdateUserInput): User
+}
+
+input UpdateUserInput {
+    name: String!
+}
