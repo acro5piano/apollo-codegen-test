@@ -3,6 +3,7 @@ export const UserFragment = gql`
     id
     name
     isActive
+    episode
     bankAccounts {
       id
     }

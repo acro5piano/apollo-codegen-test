@@ -1,6 +1,6 @@
 module.exports = {
   client: {
-    includes: ['queries/**'],
+    includes: ['src/queries/**'],
     service: {
       name: "test",
       localSchemaFile: 'schema.graphql',

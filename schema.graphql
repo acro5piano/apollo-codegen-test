@@ -2,6 +2,7 @@ type User {
     id: Int!
     name: String
     isActive: Boolean!
+    episode: Episode
     bankAccounts: [BankAccount]!
 }
 
@@ -20,4 +21,10 @@ type Mutation {
 
 input UpdateUserInput {
     name: String!
+}
+
+enum Episode {
+  NEWHOPE
+  EMPIRE
+  JEDI
 }

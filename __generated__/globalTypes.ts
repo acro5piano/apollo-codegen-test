@@ -5,6 +5,12 @@
 // START Enums and Input Objects
 //==============================================================
 
+export enum Episode {
+  EMPIRE = "EMPIRE",
+  JEDI = "JEDI",
+  NEWHOPE = "NEWHOPE",
+}
+
 export interface UpdateUserInput {
   name: string;
 }

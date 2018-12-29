@@ -1,6 +1,8 @@
 /* tslint:disable */
 // This file was automatically generated and should not be edited.
 
+import { Episode } from "./../../../__generated__/globalTypes";
+
 // ====================================================
 // GraphQL query operation: getUser
 // ====================================================
@@ -15,6 +17,7 @@ export interface getUser_user {
   id: number;
   name: string | null;
   isActive: boolean;
+  episode: Episode | null;
   bankAccounts: (getUser_user_bankAccounts | null)[];
 }
 
