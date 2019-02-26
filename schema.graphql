@@ -24,7 +24,7 @@ input UpdateUserInput {
 }
 
 enum Episode {
-  NEWHOPE
-  EMPIRE
-  JEDI
+    NEWHOPE
+    EMPIRE
+    JEDI
 }
